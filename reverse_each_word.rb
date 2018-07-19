@@ -1,7 +1,12 @@
 def reverse_each_word(str)
   arr = str.split(" ")
   new_str = ""
-  arr.each {|word| new_str << word.reverse + " "}
+  arr.each do |word| 
+    if word == arr.last 
+      new_str << word.reverse
+    else 
+    new_str << word.reverse + " "}
+  end
   new_str
 end
   
