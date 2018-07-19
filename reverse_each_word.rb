@@ -1,4 +1,5 @@
 def reverse_each_word(str)
-  return str.each {|word| word.reverse}
+  new = ""
+  str.each {|word| new << word.reverse}
 end
   
