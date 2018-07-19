@@ -14,7 +14,7 @@
 
 
 def reverse_each_word(str)
-  arr = str.join("")
+  arr = str.split("")
   arr.collect {|word| word.reverse}
 end
   
