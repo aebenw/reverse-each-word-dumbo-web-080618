@@ -19,9 +19,9 @@ def reverse_each_word(str)
     if word == arr.last 
       word.reverse
     else 
-    new_str << word.reverse + " "
+     word.reverse + " "
     end
   end
-  new_str
+  
 end
   
