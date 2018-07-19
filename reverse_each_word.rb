@@ -15,13 +15,8 @@
 
 def reverse_each_word(str)
   
-  str.collect do |word| 
-    if word == arr.last 
-      word.reverse
-    else 
-     word.reverse + " "
-    end
-  end
+  str.collect {|word| word.reverse}
+  
   
 end
   
