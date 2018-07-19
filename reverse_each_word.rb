@@ -5,7 +5,7 @@ def reverse_each_word(str)
     if word == arr.last 
       new_str << word.reverse
     else 
-    new_str << word.reverse + " "}
+    new_str << word.reverse + " "
     end
   end
   new_str
